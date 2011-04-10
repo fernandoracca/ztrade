@@ -27,6 +27,6 @@ public class FullIntegrationTest {
 	
 	@Test
 	public void failsToContribute()  {
-		assertThat(contributor.contribute(2421342), is(equalTo(ContributionStatus.FAILURE)));
+		assertThat(contributor.contribute(654321), is(equalTo(ContributionStatus.FAILURE)));
 	}
 }
